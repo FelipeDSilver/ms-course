@@ -18,7 +18,7 @@ public class Worker implements Serializable {
 
     }
 
-    public Worker(Long id, String name, Double dailyincome) {
+    public Worker(Long id, String name, Double dailyIncome) {
         this.id = id;
         this.name = name;
         this.dailyIncome = dailyIncome;
@@ -40,11 +40,11 @@ public class Worker implements Serializable {
         this.name = name;
     }
 
-    public Double getDailyincome() {
+    public Double getDailyIncome() {
         return dailyIncome;
     }
 
-    public void setDailyincome(Double dailyincome) {
+    public void setDailyIncome(Double dailyIncome) {
         this.dailyIncome = dailyIncome;
     }
 
